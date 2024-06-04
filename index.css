@@ -1,0 +1,76 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: #d6ebff;
+  font-family: Outfit;
+}
+
+.container {
+  width: 1440px;
+  display: flex;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.card {
+  width: 350px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.image-div {
+  text-align: center;
+  margin-top: 20px;
+}
+
+img {
+  width: 320px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+h4 {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
+
+.text {
+  width: 280px;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .container {
+    width: 1125px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .container {
+    width: 350px;
+  }
+}
